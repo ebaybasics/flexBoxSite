@@ -58,28 +58,32 @@
     min-height: 100px;
     margin: 10px;
 
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    gap: 1rem;
 }
 
 .anotherFlex > div {
     min-width: 100px;
     padding: 10px;
     text-align: center;
-    border: 4px solid blue;
+
+
+    flex: 1;
+    
     
 }
 
 
-.card-one {
+#one {
     background-color: #96ceb4;	
-    flex-grow: 1;
-    order: 1;
+    flex-grow: 2;
+    /* order: 1; */
 }
 
 .card-two {
     background-color: #ff6f69;
     flex-grow: 2;
-    order: 0;
+    /* order: 0; */
 }
 
 .card-three {
