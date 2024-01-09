@@ -73,12 +73,16 @@
 .card-one {
     background-color: #96ceb4;	
     flex-grow: 1;
+    order: 1;
 }
 
 .card-two {
-    background-color: #ff6f69	
+    background-color: #ff6f69;
+    flex-grow: 2;
+    order: 0;
 }
 
 .card-three {
     background-color: #23b86d;	
+    flex-grow: 3;
 }
