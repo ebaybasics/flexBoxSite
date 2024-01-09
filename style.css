@@ -90,3 +90,59 @@
     background-color: #23b86d;	
     flex-grow: 3;
 }
+
+.nav {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+  align-items: center;
+  /* min-height: 100px; */
+  border: 1px solid black;
+  
+}
+
+.nav > a {
+  border: 0px solid black
+}
+
+.nav__logo {
+  /* width: 200px; */
+  flex-grow: 1;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid blue;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.card .card__content {
+  flex: 1 1 auto;
+}
+
+.card--light {
+  background-color: #96ceb4;
+}
+
+.card--dark {
+  background-color: aqua;
+}
+
+.example {
+  max-width: 500px;;
+}
+.example__wrapper {
+  display: flex;
+  gap: .25rem;
+}
+
+.example__wrapper input[type="text"] {
+  flex: 1 1 auto;
+}
